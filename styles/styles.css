@@ -1,0 +1,144 @@
+html {
+    background-color: #393424;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.header-title {
+    margin: 0;
+    padding: 120px 110px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/styles/uploads/campo-lavanda.jpg);
+    background-size: cover;
+}
+
+.first-title {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.first-p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.horizontal-margin {
+    margin: 0 50px;
+}
+
+.articles {
+    margin: 110px 0;
+    box-sizing: border-box
+}
+
+.box-3 {
+    margin: 50px 0;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.flexbox-x {
+    margin: 0 10px 0 0;
+    padding: 100px 20px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.light_green_box {
+    background-color: #5C5235;
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#sansevieria {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/styles/uploads/sansevieria.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#sansevieria:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/styles/uploads/sansevieria.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#cactus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/styles/uploads/cactus.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#cactus:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/styles/uploads/cactus.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.white-h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.standar-h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.white-p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+
+.standar-p {
+    font-size: 18px;
+}
+
+.secondary-p {
+    font-size: 16px;
+}
+
+.white-button {
+    background-color: #fff;
+    margin: 10px 0px 0px 0px;
+    padding: 16px 8px;
+    border: 2px solid #fff;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    color: #393424;
+    box-sizing: border-box;
+}
+
+.white-button:hover {
+    background-color: #fff;
+    margin: 10px 0px 0px 0px;
+    padding: 16px 8px;
+    border: 2px solid #393424;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    box-sizing: border-box;
+}
+/* Paleta de Colores: a6ebc9; 61FF7E; 5EEB5B; 62AB37; 393424, 5C5235 */
