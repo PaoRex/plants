@@ -12,7 +12,7 @@ body {
 .header-title {
     margin: 0;
     padding: 120px 110px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/styles/uploads/campo-lavanda.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/uploads/campo-lavanda.webp);
     background-size: cover;
 }
 
@@ -79,25 +79,25 @@ body {
 
 /* IDs */
 #sansevieria {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/styles/uploads/sansevieria.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/uploads/sansevieria.webp);
     background-size: cover;
     background-position: center;
 }
 
 #sansevieria:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/styles/uploads/sansevieria.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/uploads/sansevieria.webp);
     background-size: cover;
     background-position: center;
 }
 
 #cactus {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/styles/uploads/cactus.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(/uploads/cactus.webp);
     background-size: cover;
     background-position: center;
 }
 
 #cactus:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/styles/uploads/cactus.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/uploads/cactus.webp);
     background-size: cover;
     background-position: center;
 }
