@@ -1,11 +1,52 @@
-html {
+body {
+    margin: 0;
+    font-family: Montserrat;
     background-color: #393424;
 }
 
-body {
+.nav {
     margin: 0;
-    padding: 0;
     font-family: Montserrat;
+    background-color: #489;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav__ul {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin: 0;
+}
+
+.link__first {
+    margin: 0 0 0 40px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link > img {
+    width: auto;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 /* Header of the principal page */
@@ -14,10 +55,12 @@ body {
     padding: 120px 110px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/uploads/campo-lavanda.webp);
     background-size: cover;
+    box-sizing: border-box;
 }
 
 /* Styles of the text of the h1 of header-title  */
 .first-title {
+    margin: 0;
     font-family: Montserrat;
     font-size: 50px;
     font-weight: 500;
@@ -27,6 +70,8 @@ body {
 
 /* Estilos de texto del párrafo de header-title */
 .first-p {
+    margin: 0;
+    margin-top: 20px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -34,30 +79,24 @@ body {
     color: #fff;
 }
 
-/* Márgen horizontal */
-.horizontal-margin {
-    margin: 0 50px;
-}
-
 /* Div para artículos recientes (sin javascript) */
-.articles {
-    margin: 110px 0;
-    box-sizing: border-box
+.articles-container {
+    margin: 110px 50px;
+    box-sizing: border-box;
 }
 
 /* Div compatible con 2 divs en estilo flexbox */
-.box-2 {
+.articles-container__box-2 {
     margin: 50px 0;
     width: 100%;
     height: 300px;
     box-sizing: border-box;
     display: flex;
-    box-sizing: border-box;
     gap: 20px;
 }
 
 /* Estilos de flexbox horizontal */
-.flexbox-x {
+.box-2__flexbox-x {
     padding: 95px 20px;
     width: 100%;
     height: 100%;
@@ -69,9 +108,9 @@ body {
 }
 
 /* Estilos de div verde claro */
-.light_green_box {
+.box {
     background-color: #5C5235;
-    margin: 0px 0px 50px 0px;
+    margin: 0 50px;
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
@@ -86,8 +125,6 @@ body {
 
 #sansevieria:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/uploads/sansevieria.webp);
-    background-size: cover;
-    background-position: center;
 }
 
 #cactus {
@@ -98,12 +135,10 @@ body {
 
 #cactus:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/uploads/cactus.webp);
-    background-size: cover;
-    background-position: center;
 }
 
 /* White Standar H2 30px */
-.white-standar-h2 {
+.h2 {
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 400;
@@ -112,16 +147,12 @@ body {
 }
 
 /* White Secondary H2 24px */
-.white-secondary-h2 {
-    font-family: Montserrat;
+.h2--secondary {
     font-size: 24px;
-    font-weight: 400;
-    color: #fff;
-    margin: 0;
 }
 
 /* White Standar P 18px */
-.white-standar-p {
+.p {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 300;
@@ -130,18 +161,14 @@ body {
 }
 
 /* White Secondary P 16px */
-.white-secondary-p {
-    font-family: Montserrat;
+.p--secondary {
     font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    color: #fff;
 }
 
 /* White Button */
-.white-button {
+.button {
     background-color: #fff;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0;
     padding: 16px 8px;
     border: 2px solid #fff;
     font-family: "Montserrat";
@@ -151,14 +178,7 @@ body {
     box-sizing: border-box;
 }
 
-.white-button:hover {
-    background-color: #fff;
-    margin: 10px 0px 0px 0px;
-    padding: 16px 8px;
+.button:hover {
     border: 2px solid #393424;
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-style: normal;
-    box-sizing: border-box;
 }
 /* Paleta de Colores: a6ebc9; 61FF7E; 5EEB5B; 62AB37; 393424, 5C5235 */
