@@ -55,6 +55,7 @@ body {
     padding: 120px 110px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/uploads/campo-lavanda.webp);
     background-size: cover;
+    background-position: center;
     box-sizing: border-box;
 }
 
@@ -110,7 +111,7 @@ body {
 /* Estilos de div verde claro */
 .box {
     background-color: #5C5235;
-    margin: 0 50px;
+    margin: 0;
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
