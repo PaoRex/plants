@@ -9,43 +9,50 @@
     <link rel="stylesheet" href="styles/fonts/fonts.css">
     <link rel="icon" type="image/png" href="uploads/favicon_32x32.png">
 </head>
-<body>
-    <header>
-        <nav class="nav">
-            <ul class="nav__ul">
-                <li class="nav__li">
-                    <a href="index.html" class="nav__link"><img src="uploads/logo.png"></a>
-                </li>
-                <li class="nav__li">
-                    <a href="#" class="nav__link link__first">Blog</a>
-                </li>
-                <li class="nav__li">
-                    <a href="#" class="nav__link">Quiénes somos</a>
-                </li>
-                <li class="nav__li">
-                    <a href="#" class="nav__link">Servicios</a>
-                </li>
-                <li class="nav__li">
-                    <a href="#" class="nav__link">Reseñas de Usuarios</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header-title">
-            <h1 class="first-title" aria-label="Bienvenido a Plants">Bienvenido a Plants</h1>
-            <p class="first-p">Plants es una página web dedicada a la decoración del hogar con plantas y a su cuidado</p>
-        </div>
-    </header>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <div class="image__container">
+                    <img src="uploads/logo.png">
+                    <ul>
+                        <li>
+                            <a href="#" class="nav__link">PLANTS</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#" class="nav__link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Reseñas</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-title">
+                <div>
+                    <h1 class="first-title" aria-label="Bienvenido a Plants">Bienvenido a Plants</h1>
+                    <p class="first-p">Plants es una página web dedicada a la decoración del hogar con plantas y a su cuidado</p>
+                </div>
+            </div>
+        </header>
         <main>
             <!-- Articles Section -->
             <section class="articles-container">
                 <h2 class="h2">Artículos</h2>
                 <p class="p">Explora nuestros mejores artículos redactados sobre decoración tanto de interior y exterior además de cuidado de plantas</p>
-                <div class="articles-container__box-2">
-                    <div class="box-2__flexbox-x" id="sansevieria">
+                <div class="flexbox">
+                    <div class="flexbox__flex-item" id="sansevieria">
                         <h2 class="h2 h2--secondary">Sansevieria</h2>
                         <p class="p p--secondary">Una planta excepcional que nunca debe de faltar en tu hogar</p>
                     </div>
-                    <div class="box-2__flexbox-x" id="cactus">
+                    <div class="flexbox__flex-item" id="cactus">
                         <h2 class="h2 h2--secondary">Cactus</h2>
                         <p class="p p--secondary">Plantas resistentes y fáciles de cuidar que aportan un toque único a cualquier espacio</p>
                     </div>
@@ -55,12 +62,7 @@
                     <p class="p">Visita nuestro blog dedicado al cuidado de plantas de hogar y su perfecto hogar según sus necesidades.</p>
                     <button class="button">Haz click aquí</button>
                 </div>
-            </div>
-            <section class="main-services">
-
-            </div>
             </section>
-        </div>
-    </main>
-</body>
+        </main>
+    </body>
 </html>
